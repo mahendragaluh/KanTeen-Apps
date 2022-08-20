@@ -70,5 +70,3 @@ Route::prefix('kan_teen')->group(function(){
 		Route::get('/tolak/{id}', [App\Http\Controllers\OrderController::class, 'tolakPesanan'])->name('tolak.pesanan');
 	});
 });
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
